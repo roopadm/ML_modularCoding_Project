@@ -23,6 +23,8 @@ def get_requirements_list()->List[str]:
 
     if HYPEN_E_DOT in requirement_list:
         requirement_list.remove(HYPEN_E_DOT)
+    
+    return requirement_list
 
 setup(
     name=PROJECT_NAME,
