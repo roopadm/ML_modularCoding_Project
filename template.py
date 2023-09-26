@@ -13,7 +13,7 @@ while True:
 #List of files to create
 list_of_files_needed=[
 
-f"{project_name}__init__.py",
+f"{project_name}/__init__.py",
 f"{project_name}/components/__init__.py",
 f"{project_name}/config/__init__.py",
 f"{project_name}/constants/__init__.py",
