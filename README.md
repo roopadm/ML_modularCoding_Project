@@ -22,8 +22,24 @@ It helps initialize a project by creating a directory structure and necessary fi
 
 1. Create new Environment
 
-conda create -p env python=3.9 -y         # one of the stable python version supported by conda and our project requirements
+conda create -p env python=3.8 -y         --- one of the stable python version supported by conda and our project requirements
+
+2. Activate your environment
+
+conda activate env/ -> CMD
+
+3. Install your requriments file
+
+pip install -r requirements.txt         --- requirements.txt file contains the necessary dependencies for your project.
 
 
+setup file : To configure and package a Python project, specifying its name, version, author, and dependencies for easy distribution and installation.
 
+**Logger and Exception Handling**
+
+ logging to record the execution flow and key events within your application, 
+ while exception handling is used to manage and recover from errors that may arise.
+
+
+**Deployment**
 
