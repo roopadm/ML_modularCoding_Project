@@ -48,3 +48,10 @@ DATA_PREPROCESS_OBJ="processor.pkl"
 DATA_TRANSFORMATION_DIR="transform_data"
 TRANSFORM_TRAIN_KEY="train.csv"
 TRANSFORM_TEST_KEY="test.csv"
+
+
+
+# model trainer constants
+
+MODEL_TRAINER_KEY="model_trainer"
+MODEL_OBJECT="model.pkl"
